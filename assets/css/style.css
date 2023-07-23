@@ -148,6 +148,10 @@ hr {
     top: -15px;
 }
 
+.float-left {
+    float: left;
+}
+
 section {
     clear: both;
 }
