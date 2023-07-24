@@ -158,14 +158,6 @@ hr {
     /* top: -15px; */
 }
 
-/* .float-left {
-    float: left;
-} */
-
-/* .float-right {
-    float: right;
-} */
-
 section {
     clear: both;
 }
@@ -180,6 +172,26 @@ section {
     padding-bottom: 20px;
 }
 
+.edu-box {
+    width: auto;
+    border: 3px solid #DE3163;
+    box-shadow: 9px 6px 4px #5B2C6F;
+    padding: 7px 11px;
+    background-image: linear-gradient(150deg, #EAFAF1 , #E8DAEF 30%,#E5E8E8 );
+    margin: 10px;
+    display: inline-block;
+    list-style: none;
+}
+
+ul strong {
+    font-size: large;
+}
+
+.edu-box li {
+    list-style-type: none;
+}
+
+
 
 /* skills section */
 #skills h1 {
@@ -192,11 +204,12 @@ section {
 }
 
 
+
+
 /* contact me section */
 #contact {
     clear: left;
     background-color: #AC8499;
-    /* background: url("../images/bokeh-2072271_1920.jpg"); */
     background-size: cover;
     background-position: center;
     height: 500px;
