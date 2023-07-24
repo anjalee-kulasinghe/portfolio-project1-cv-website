@@ -26,7 +26,7 @@
         <nav class="navigation">
             <ul id="menu">
                 <li>
-                    <a href="#home" aria-label="Go to the top of the page">Home</a>
+                    <a href="#main" aria-label="Go to the top of the page">Home</a>
                 </li>
                 <li>
                     <a href="#experience" aria-label="Go to the experience section">Experience</a>
@@ -49,7 +49,7 @@
     </header>
 
     <!-- start of the home section -->
-    <section id="home">
+    <section id="main">
         <div>
             <img src="/assets/images/Anji_half_watercolor.jpg" alt="Image of Anjalee" id="profile-img">
             <!-- image on the side -->
@@ -193,62 +193,63 @@
     <!-- contact section start -->
     <section id="contact">
         <h1><strong>Contact Me <i class="fa-solid fa-comment-dots"></i></strong></h1>
-        <!-- start the contact me form -->
+
         <div class="contact-me">
-            <form action="https://gmail.com" method="post" class="contact-form">
-                <fieldset>
-                    <div>
-                        <label for="fname">First Name</label><br>
-                        <input id="fname" type="text" name="first_name" class="text-input" required><br><br>
-                    </div>
+            <div class="column">
+                <form action="https://gmail.com" method="post" class="contact-form">
+                    <fieldset>
+                        <div>
+                            <label for="fname">First Name</label><br>
+                            <input id="fname" type="text" name="first_name" class="text-input" required><br><br>
+                        </div>
 
-                    <div>
-                        <label for="lname">Last Name</label><br>
-                        <input id="lname" type="text" name="last_name" class="text-input" required><br><br>
-                    </div>
+                        <div>
+                            <label for="lname">Last Name</label><br>
+                            <input id="lname" type="text" name="last_name" class="text-input" required><br><br>
+                        </div>
 
-                    <div>
-                        <label for="email">Email Address</label><br>
-                        <input id="email" type="email" name="email_address" class="text-input" required><br><br>
-                    </div>
-                </fieldset>
+                        <div>
+                            <label for="email">Email Address</label><br>
+                            <input id="email" type="email" name="email_address" class="text-input" required><br><br>
+                        </div>
+                    </fieldset>
 
-                <input type="submit" value="Submit" class="send-button">
-                <input type="reset" value="Reset Form">
-            </form>
-        </div>
-        <!-- end the contact me form -->
+                    <input type="submit" value="Submit" class="send-button">
+                    <input type="reset" value="Reset Form">
+                </form>
+            </div> <!--end of left column content (form)-->
+        
+  
+            <div class="column">
+                <!-- Profile image -->
+                <div id="p-img">
+                    <img src="/assets/images/Anji.jpg" alt="profile image of anjalee kulasinghe" width="150" height="200">
+                </div>
+                <!-- personal information -->
+                <h2>Anjalee Kulasinghe</h2>
+                <h3>Business and Requirement Analysis | Business Expert | Scrum Master | Project Manager</h3>
+                <br>
+                <p>Mobile: +46 704 731 773</p>
+                <p>Email: anjaleek@gmail.com</p>
+                <br>
 
-        <!-- start personal information -->
-        <div class="my-info">
-            <!-- Profile image -->
-            <div id="p-img">
-                <img src="/assets/images/Anji.jpg" alt="profile image of anjalee kulasinghe" width="150" height="200">
-            </div>
-            <!-- personal information -->
-            <h2>Anjalee Kulasinghe</h2>
-            <h3>Business and Requirement Analysis | Business Expert | Scrum Master | Project Manager</h3>
-            <br>
-            <p>Mobile: +46 704 731 773</p>
-            <p>Email: anjaleek@gmail.com</p>
-            <br>
+                <!-- social media links -->
+                <ul class="social-networks">
+                    <li><a href="https://www.linkedin.com/in/anjalee-kulasinghe/" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+            </div><!--end of right column comntent (basic info)-->
+        </div><!--end of class contact-me -->
 
-            <!-- social media links -->
-            <ul class="social-networks">
-                <li><a href="https://www.linkedin.com/in/anjalee-kulasinghe/" target="_blank"><i
-                            class="fa-brands fa-linkedin"></i></a></li>
-                <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
-                <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
-            </ul>
-        </div>
-        <!-- end personal information -->
     </section>
     <!-- contact section end -->
 
     <!-- footer section start -->
-    <!-- <footer class="text-uppercase">
+    <footer class="text-uppercase">
         <p>Copyright © by Anjalee Kulasinghe 2023</p>
-    </footer> -->
+    </footer>
     <!-- footer section end -->
 
     <!-- adding font awesome script -->

@@ -70,7 +70,7 @@ p {
 }
 
 /* section home */
-#home {
+#main {
     height: 600px;
 }
 
@@ -98,7 +98,7 @@ p {
     border: none;
 }
 
-#home #welcome {
+#main #welcome {
     float: left;
 }
 
@@ -146,21 +146,21 @@ hr {
 
 #exp2 {
     background-color: #C2848C;
-    /* position: relative; */
+    position: relative;
     left: 70px;
-    top: -15px;
+    /* top: -15px; */
 }
 
 #exp3 {
     background-color: #EDC9D2;
-    /* position: relative; */
+    position: relative;
     left: 70px;
-    top: -15px;
+    /* top: -15px; */
 }
 
-.float-left {
+/* .float-left {
     float: left;
-}
+} */
 
 /* .float-right {
     float: right;
@@ -200,6 +200,8 @@ section {
     background-size: cover;
     background-position: center;
     height: 500px;
+    margin-bottom: 5%;
+    box-sizing: border-box;
 }
 
 #contact h1 {
@@ -211,17 +213,30 @@ section {
     padding-bottom: 20px;
 }
 
+.contact-me {
+  display: flex;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 10px;
+  height: 600px; 
+}
+
 .contact-form {
     margin: 30px 5% 0 0;
     color: #EDC9D2;
     background-color: #331D2C;
     opacity: .5;
-    max-width: 600px;
+    width: 400px;
     position: absolute;
     left: 10%;
-    padding: 30px;
+    padding: 10px;
 }
-
+#fname, #lname, #email {
+    width: 100%;
+}
 .send-button {
     display: block;
 }
@@ -256,17 +271,13 @@ input[type=reset] {
     font-weight: bold;
 }
 
-.my-info {
-    float: right;
-}
-
 #p-img {
     max-width: 30px;
     height: auto;
 }
 
 .social-networks {
-    text-align: right;
+    text-align: left;
 
 }
 
@@ -276,8 +287,8 @@ input[type=reset] {
 
 .social-networks i {
     font-size: 160%;
-    margin: 1%;
-    padding: 5%;
+    /* margin: 1%; */
+    padding: 1%;
     color: #3F2E3E;
 }
 
@@ -291,6 +302,8 @@ footer {
     bottom: 0;
     right: 0;
     z-index: 3;
+    clear: both;
+    overflow: auto;
 }
 
 footer>p {
