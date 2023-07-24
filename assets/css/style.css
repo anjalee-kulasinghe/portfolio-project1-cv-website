@@ -13,8 +13,8 @@ body {
     background-color: #EFE1D1;
     font-weight: 300;
     margin: auto;
-    width: 90%; 
-    padding: 50px;
+    width: 95%; 
+    /* padding: 50px; */
 }
 
 /* headings, paragraph */
@@ -37,18 +37,18 @@ p {
     height: auto;
     float: left;
     margin-left: 30px;
-    padding-top: 10px;
+    margin-top: 10px;
     padding-bottom: 10px;
 }
 
 
 /*-------------------------------------------------------------------  navigation links */
-/* .navigation{
-    overflow: hidden;
-    position: fixed;
+.navigation{
     top: 0;
-    width: 100%;
-} */
+    /* overflow: hidden;
+    position: fixed;
+    width: 100%; */
+}
 
 .navigation li a {
     display: inline-block;
@@ -70,6 +70,22 @@ p {
     font-size: 110%;
     margin-right: 30px;
 }
+/* download button */
+.button {
+    background-color: #331D2C;
+    color: white;
+    margin-top: 20px;
+    margin-left: 0.75rem;
+    padding: 0.75rem;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+    /* font-size: 16px; */
+    letter-spacing: 4px;
+    font-size: 110%;
+    cursor: pointer;
+}
 
 .navigation li a:hover {
     color: #A78295;
@@ -78,6 +94,8 @@ p {
 #menu #logo {
     line-height: 150px;
 }
+
+
 
 /*-------------------------------------------------------------------  section home */
 #main {
