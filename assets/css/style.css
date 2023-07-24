@@ -170,6 +170,116 @@ section {
     clear: both;
 }
 
+/* education section */
+#education h1 {
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    text-align: center;
+    font-size: xx-large;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+
+/* skills section */
+#skills h1 {
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    text-align: center;
+    font-size: xx-large;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+
+/* contact me section */
+#contact {
+    clear: left;
+    background-color: #AC8499;
+    /* background: url("../images/bokeh-2072271_1920.jpg"); */
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+#contact h1 {
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    text-align: center;
+    font-size: xx-large;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.contact-form {
+    margin: 30px 5% 0 0;
+    color: #EDC9D2;
+    background-color: #331D2C;
+    opacity: .5;
+    max-width: 600px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+}
+
+.send-button {
+    display: block;
+}
+
+.send-button:hover {
+    background-color: #EDC9D2;
+    color: #3F2E3E;
+}
+
+input[type=submit] {
+    margin-top: 20px;
+    margin-left: 0.75rem;
+    padding: 0.75rem;
+    font-size: 100%;
+    background-color: #3F2E3E;
+    color: #EDC9D2;
+    border: none;
+    border-radius: 5px;
+    border-color: #331D2C;
+
+}
+
+input[type=reset] {
+    margin-top: 20px;
+    margin-left: 0.75rem;
+    padding: 0.75rem;
+    background-color: #EDC9D2;
+    color: #3F2E3E;
+    border: 1px solid #3F2E3E;
+    border-radius: 5px;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+.my-info {
+    float: right;
+}
+
+#p-img {
+    max-width: 30px;
+    height: auto;
+}
+
+.social-networks {
+    text-align: right;
+
+}
+
+.social-networks>li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3F2E3E;
+}
 
 /* footer */
 footer {
@@ -189,38 +299,4 @@ footer>p {
 
 .text-uppercase {
     text-transform: uppercase;
-}
-
-/* contact me section */
-.send-button {
-    display: block;
-}
-
-.send-button:hover {
-    background-color: #EDC9D2;
-    color: #3F2E3E;
-}
-
-input[type=submit] {
-    margin-top: 20px;
-    margin-left: 0.75rem;
-    padding: 0.75rem;
-    font-size: 100%;
-    background-color: #3F2E3E;
-    color: #EDC9D2;
-    border: none;
-    border-radius: 5px;
-
-}
-
-input[type=reset] {
-    margin-top: 20px;
-    margin-left: 0.75rem;
-    padding: 0.75rem;
-    background-color: #EDC9D2;
-    color: #3F2E3E;
-    border: 1px solid #3F2E3E;
-    border-radius: 5px;
-    font-size: 100%;
-    font-weight: bold;
 }
