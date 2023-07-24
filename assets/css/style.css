@@ -125,7 +125,7 @@ p {
 .inner-box {
     width: 90%;
     margin: 1rem 0;
-    display: inline-block;
+    /* display: inline-block; */
     padding-left: 30px;
     padding-right: 20px;
     padding-bottom: 10px;
@@ -148,14 +148,12 @@ hr {
     background-color: #C2848C;
     position: relative;
     left: 70px;
-    /* top: -15px; */
 }
 
 #exp3 {
     background-color: #EDC9D2;
     position: relative;
     left: 70px;
-    /* top: -15px; */
 }
 
 section {
@@ -194,6 +192,12 @@ ul strong {
 
 
 /* skills section */
+#skills {
+    padding: 1rem;
+    margin-bottom: 80px;
+    background: url('../images/bokeh-2072271_1920.jpg') center center / cover no-repeat fixed;
+}
+
 #skills h1 {
     text-transform: uppercase;
     letter-spacing: 6px;
@@ -203,7 +207,14 @@ ul strong {
     padding-bottom: 20px;
 }
 
-
+    /* width: auto;
+    border: 3px solid #DE3163;
+    box-shadow: 9px 6px 4px #5B2C6F;
+    padding: 7px 11px;
+    background-image: linear-gradient(150deg, #EAFAF1 , #E8DAEF 30%,#E5E8E8 );
+    margin: 10px;
+    display: inline-block;
+    list-style: none;    */
 
 
 /* contact me section */
@@ -269,7 +280,6 @@ input[type=submit] {
     border: none;
     border-radius: 5px;
     border-color: #331D2C;
-
 }
 
 input[type=reset] {
@@ -291,7 +301,6 @@ input[type=reset] {
 
 .social-networks {
     text-align: left;
-
 }
 
 .social-networks>li {
