@@ -253,13 +253,25 @@ ul strong {
 } 
 
 /* language progress bar*/
+.language {
+    margin-top: 20px;
+    border-radius: 25px;
+    background: rgba(194, 132, 140, .6);
+    padding: 20px;
+    width: 700px;
+    height: auto;
+    text-align: left;
+    display: block;
+    padding: 5px;
+} 
+
 .wrapper {
     width: 500px;
 }
 
 .progress-bar {
     width: 100%;
-    background-color: #e0e0e0;
+    background-color: #EDC9D2;
     padding: 3px;
     border-radius: 3px;
     box-shadow: inset 0 1px 3px rgba(0, 0, 0, .2);
@@ -268,12 +280,28 @@ ul strong {
 .progress-bar-fill {
     display: block;
     height: 22px;
-    background-color: #659cef;
+    background-color: #3F2E3E;
     border-radius: 3px;
     
     transition: width 500ms ease-in-out;
 }
 
+span {
+    color: #EDC9D2;
+}
+
+/* computer skills*/
+.tech-lan {
+    margin-top: 20px;
+    border-radius: 25px;
+    background: rgba(194, 132, 140, .6);
+    padding: 20px;
+    width: 700px;
+    height: auto;
+    text-align: left;
+    display: block;
+    padding: 5px;
+}
 /*-------------------------------------------------------------------  contact me section */
 #contact {
     padding: 1rem;
