@@ -1,7 +1,7 @@
 /* font family */
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&family=Barlow:wght@300&family=Patrick+Hand&family=Quicksand:wght@700&family=Source+Sans+3:wght@300&display=swap');
 
-/*remove default margin*/
+/*------------------------------------------------------------------- remove default margin*/
 * {
     margin: 0;
     padding: 0;
@@ -12,6 +12,9 @@ body {
     font-family: 'Barlow', sans-serif;
     background-color: #EFE1D1;
     font-weight: 300;
+    margin: auto;
+    width: 90%; 
+    padding: 50px;
 }
 
 /* headings, paragraph */
@@ -27,7 +30,7 @@ p {
     font-family: 'Barlow', sans-serif;
 }
 
-/* head section */
+/*-------------------------------------------------------------------  head section */
 
 #logo {
     width: 75px;
@@ -39,7 +42,14 @@ p {
 }
 
 
-/* navigation links */
+/*-------------------------------------------------------------------  navigation links */
+/* .navigation{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+} */
+
 .navigation li a {
     display: inline-block;
     text-decoration: none;
@@ -69,9 +79,11 @@ p {
     line-height: 150px;
 }
 
-/* section home */
+/*-------------------------------------------------------------------  section home */
 #main {
     height: 600px;
+    padding: 1rem;
+    margin-bottom: 40px;
 }
 
 #profile-img {
@@ -102,10 +114,10 @@ p {
     float: left;
 }
 
-/* section experience */
+/*-------------------------------------------------------------------  section experience */
 #experience {
     padding: 1rem;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
     background: url('../images/bokeh-2072271_1920.jpg') center center / cover no-repeat fixed;
 }
 
@@ -160,14 +172,19 @@ section {
     clear: both;
 }
 
-/* education section */
+/*-------------------------------------------------------------------  education section */
+#education {
+    padding: 1rem;
+    margin-bottom: 40px;
+}
+
 #education h1 {
     text-transform: uppercase;
     letter-spacing: 6px;
     text-align: center;
     font-size: xx-large;
-    padding-top: 30px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 30px;
 }
 
 .edu-box {
@@ -191,10 +208,10 @@ ul strong {
 
 
 
-/* skills section */
+/*-------------------------------------------------------------------  skills section */
 #skills {
     padding: 1rem;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
     background: url('../images/bokeh-2072271_1920.jpg') center center / cover no-repeat fixed;
 }
 
@@ -207,24 +224,28 @@ ul strong {
     padding-bottom: 20px;
 }
 
-    /* width: auto;
-    border: 3px solid #DE3163;
-    box-shadow: 9px 6px 4px #5B2C6F;
-    padding: 7px 11px;
-    background-image: linear-gradient(150deg, #EAFAF1 , #E8DAEF 30%,#E5E8E8 );
-    margin: 10px;
-    display: inline-block;
-    list-style: none;    */
+.skill-box {
+  border-radius: 25px;
+  background: #C2848C;
+  padding: 20px;
+  width: 200px;
+  height: 60px;
+  text-align: center;
+  display: inline-block;
+} 
 
 
-/* contact me section */
+/*-------------------------------------------------------------------  contact me section */
 #contact {
+    padding: 1rem;
+    margin-bottom: 40px;
+
     clear: left;
     background-color: #AC8499;
     background-size: cover;
     background-position: center;
-    height: 500px;
-    margin-bottom: 5%;
+    height: 600px;
+    /* margin-bottom: 5%; */
     box-sizing: border-box;
 }
 
@@ -314,7 +335,7 @@ input[type=reset] {
     color: #3F2E3E;
 }
 
-/* footer */
+/*-------------------------------------------------------------------  footer */
 footer {
     background-color: #3F2E3E;
     padding: 1em;
