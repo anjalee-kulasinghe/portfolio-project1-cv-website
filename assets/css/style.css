@@ -149,20 +149,20 @@ hr {
     padding-bottom: 10px;
 }
 
-#exp1 {
+#experience1 {
     background-color: #EDC9D2;
     position: relative;
     left: 70px;
     top: -15px;
 }
 
-#exp2 {
+#experience2 {
     background-color: #C2848C;
     position: relative;
     left: 70px;
 }
 
-#exp3 {
+#experience3 {
     background-color: #EDC9D2;
     position: relative;
     left: 70px;
@@ -189,7 +189,7 @@ section {
     padding-bottom: 30px;
 }
 
-.edu-box {
+.education-box {
     width: 600px;
     border: 3px solid #DE3163;
     box-shadow: 9px 6px 4px #5B2C6F;
@@ -204,7 +204,7 @@ ul strong {
     font-size: large;
 }
 
-.edu-box li {
+.education-box li {
     list-style-type: none;
     text-align: center;
 }
@@ -274,7 +274,7 @@ ul strong {
     clear: both;
 }
 
-.hlan {
+.human-language {
     background-color: #C2848C;
 }
 
@@ -298,7 +298,7 @@ ul strong {
     font-size: 20px;
 }
 
-.hlan-tools-box {
+.human-language-tools-box {
     margin-top: 20px;
     background: rgba(194, 132, 140, .6);
     /* padding: 20px; */
@@ -309,7 +309,7 @@ ul strong {
 }
 
 /* computer skills*/
-.tech-lan {
+.tech-languages {
     margin-top: 20px;
     background: rgba(194, 132, 140, .6);
     /* padding: 20px; */
@@ -373,7 +373,7 @@ ul strong {
 }
 
 /* Create two equal columns that sits next to each other */
-.con-column {
+.contact-column {
     flex: 50%;
     padding: 10px;
     height: 600px;
@@ -429,7 +429,7 @@ input[type=reset] {
     font-weight: bold;
 }
 
-#p-img {
+#profile-image {
     max-width: 30px;
     height: auto;
 }
