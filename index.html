@@ -18,13 +18,11 @@
 
 <body>
     <header>
-        <a href="index.html">
-            <img src="./assets/images/LOGO_AK.jpg" alt="logo" id="logo"> <!-- logo on the top left -->
-        </a>
-
-        <!-- start of top navigation -->
         <nav class="navigation">
-            <ul id="menu">
+            <!-- start of top navigation -->
+            <ul>
+                <!-- logo on the top left -->
+                <img src="./assets/images/LOGO_AK.jpg" alt="logo" class="logo">
                 <li>
                     <a href="#main" aria-label="Go to the top of the page">Home</a>
                 </li>
@@ -41,7 +39,7 @@
                     <a href="#contact" aria-label="Go to the contact section">Contact</a>
                 </li>
                 <li>
-                    <!-- add the download button to the navigation-->
+                    <!-- add the download CV link to the navigation-->
                     <a href="./assets/document/Anjalee_Kulasinghe_CV.pdf" download aria-label="download the CV"
                         onclick="alert('Download my full resume')">
                         Download CV
@@ -57,18 +55,16 @@
     <!-- start of the home section -->
     <section id="main">
         <div>
-            <img src="./assets/images/Anji_half_watercolor.jpg" alt="Image of Anjalee" id="profile-img">
             <!-- image on the side -->
+            <img src="./assets/images/Anji_half_watercolor.jpg" alt="Image of Anjalee" id="profile-img">
         </div>
         <div id="welcome">
-            <p>Hey there! My name is <br>
-                <strong style="color: #331D2C;"> ANJALEE KULASINGHE </strong> <br>
-                or you can call me <br>
-                <strong style="color: #331D2C;"> ANJI </strong><br>
-                I am a Business Expert and <br>
-                a Scrum Master at H&M Group. <br>
-                ... and I am just a human<br>
-                who likes to enjoy life!
+            <p>Hey there!</p>
+            <p>My name is <strong style="color: #331D2C;"> ANJALEE KULASINGHE </strong> or you can call me
+                <strong style="color: #331D2C;"> ANJI. </strong>
+            </p>
+            <p>I am a Business Expert and a Scrum Master at H&M Group.</p>
+            <p>... and I am just a human who likes to enjoy life!</p>
             </p>
         </div>
     </section>
@@ -312,34 +308,8 @@
 
         <div class="contact-me">
             <div class="contact-column">
-                <form action="#" method="post" class="contact-form">
-                    <fieldset>
-                        <div>
-                            <label for="fname">First Name</label><br>
-                            <input id="fname" type="text" name="first_name" class="text-input" required><br><br>
-                        </div>
-
-                        <div>
-                            <label for="lname">Last Name</label><br>
-                            <input id="lname" type="text" name="last_name" class="text-input" required><br><br>
-                        </div>
-
-                        <div>
-                            <label for="email">Email Address</label><br>
-                            <input id="email" type="email" name="email_address" class="text-input" required><br><br>
-                        </div>
-                    </fieldset>
-
-                    <input type="submit" value="Submit" class="send-button">
-                    <input type="reset" value="Reset Form">
-                </form>
-            </div>
-            <!--end of left column content (form)-->
-
-
-            <div class="contact-column">
                 <!-- Profile image -->
-                <div id="rofile-image">
+                <div id="profile-image">
                     <img src="./assets/images/Anji.jpg" alt="profile image of anjalee kulasinghe" width="150"
                         height="200">
                 </div>
@@ -359,13 +329,41 @@
                     <ul class="social-networks">
                         <li><a href="https://www.linkedin.com/in/anjalee-kulasinghe/" target="_blank"><i
                                     class="fa-brands fa-linkedin"></i></a></li>
-                        <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
-                        <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <li><a href="https://www.facebook.com/anjalee.kulasinghe" target="_blank"><i
+                                    class="fab fa-facebook"></i></a></li>
+                        <li><a href="https://www.instagram.com/anji_kulasinghe/" target="_blank"><i
+                                    class="fab fa-instagram"></i></a>
                         </li>
                     </ul>
                 </div>
             </div>
             <!--end of right column comntent (basic info)-->
+
+
+            <div class="contact-column">
+                <form class="contact-form">
+                    <fieldset>
+                        <div>
+                            <label for="fname">First Name</label><br>
+                            <input id="fname" type="text" name="fname" class="text-input" required><br><br>
+                        </div>
+
+                        <div>
+                            <label for="lname">Last Name</label><br>
+                            <input id="lname" type="text" name="lname" class="text-input" required><br><br>
+                        </div>
+
+                        <div>
+                            <label for="email">Email Address</label><br>
+                            <input id="email" type="email" name="email" class="text-input" required><br><br>
+                        </div>
+                    </fieldset>
+
+                    <input type="submit" value="Submit" class="send-button">
+                    <input type="reset" value="Reset Form">
+                </form>
+            </div>
+            <!--end of left column content (form)-->
         </div>
         <!--end of class contact-me -->
 
