@@ -139,21 +139,23 @@ hr {
 
 #experience1 {
     background-color: #EDC9D2;
-    position: relative;
-    left: 70px;
-    top: -15px;
+    margin: auto;
+    width: 90%;
+    padding: 10px;
 }
 
 #experience2 {
     background-color: #C2848C;
-    position: relative;
-    left: 70px;
+    margin: auto;
+    width: 90%;
+    padding: 10px;
 }
 
 #experience3 {
     background-color: #EDC9D2;
-    position: relative;
-    left: 70px;
+    margin: auto;
+    width: 90%;
+    padding: 10px;
 }
 
 section {
