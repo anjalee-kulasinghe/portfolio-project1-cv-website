@@ -12,9 +12,7 @@ body {
     font-family: 'Barlow', sans-serif;
     background-color: #EFE1D1;
     font-weight: 300;
-    margin: auto;
-    width: 95%;
-    /* padding: 50px; */
+    width: 100%;
 }
 
 /* headings, paragraph */
@@ -28,6 +26,12 @@ h3 {
 
 p {
     font-family: 'Barlow', sans-serif;
+}
+
+hr {
+    border-top: 1px solid #331D2C;
+    width: 70%;
+    margin: 5px 0;
 }
 
 /*-------------------------------------------------------------------  head section */
@@ -45,9 +49,6 @@ p {
 /*-------------------------------------------------------------------  navigation links */
 .navigation {
     top: 0;
-    /* overflow: hidden;
-    position: fixed;
-    width: 100%; */
 }
 
 .navigation a {
@@ -69,7 +70,7 @@ p {
 
 .navigation #menu {
     text-align: right;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     font-size: 110%;
     margin-right: 30px;
 }
@@ -134,9 +135,9 @@ p {
     padding-bottom: 20px;
 }
 
-.inner-box>li {
+.inside {
     word-wrap: break-word;
-    padding-right: 20px;
+    padding-left: 40px;
 }
 
 .inner-box {
@@ -146,12 +147,6 @@ p {
     padding-left: 30px;
     padding-right: 20px;
     padding-bottom: 10px;
-}
-
-hr {
-    border-top: 1px solid #331D2C;
-    width: 30%;
-    margin: 5px 0;
 }
 
 #exp1 {
@@ -181,6 +176,8 @@ section {
 #education {
     padding: 1rem;
     margin-bottom: 40px;
+    display: grid;
+    place-items: center;
 }
 
 #education h1 {
@@ -193,7 +190,7 @@ section {
 }
 
 .edu-box {
-    width: auto;
+    width: 600px;
     border: 3px solid #DE3163;
     box-shadow: 9px 6px 4px #5B2C6F;
     padding: 7px 11px;
@@ -209,6 +206,7 @@ ul strong {
 
 .edu-box li {
     list-style-type: none;
+    text-align: center;
 }
 
 
@@ -242,23 +240,22 @@ ul strong {
 }
 
 .expertise {
-    margin-top: 20px;
     background: rgba(194, 132, 140, .6);
-    /* padding: 20px; */
     width: 100%;
-    text-align: left;
-    display: block;
     padding: 5px;
+    text-align: center;
 }
 
 .skill-box {
     border-radius: 25px;
     background: #9A6C81;
-    padding: 20px;
-    width: 200px;
-    height: 60px;
+    padding: 5px;
+    width: 210px;
+    height: 65px;
     text-align: center;
     display: inline-block;
+    box-sizing: border-box;
+    vertical-align: middle;
 }
 
 /* tech and human language */
