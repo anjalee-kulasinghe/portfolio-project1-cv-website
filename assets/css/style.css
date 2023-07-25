@@ -13,7 +13,7 @@ body {
     background-color: #EFE1D1;
     font-weight: 300;
     margin: auto;
-    width: 95%; 
+    width: 95%;
     /* padding: 50px; */
 }
 
@@ -43,17 +43,20 @@ p {
 
 
 /*-------------------------------------------------------------------  navigation links */
-.navigation{
+.navigation {
     top: 0;
     /* overflow: hidden;
     position: fixed;
     width: 100%; */
 }
 
+.navigation a {
+    float: right;
+}
+
 .navigation li a {
     display: inline-block;
     text-decoration: none;
-    float: right;
     margin-right: 10px;
     color: #331D2C;
     font-weight: bold;
@@ -69,22 +72,6 @@ p {
     letter-spacing: 4px;
     font-size: 110%;
     margin-right: 30px;
-}
-/* download button */
-.button {
-    background-color: #331D2C;
-    color: white;
-    margin-top: 20px;
-    margin-left: 0.75rem;
-    padding: 0.75rem;
-    border-radius: 5px;
-    text-align: center;
-    text-decoration: none;
-    /* display: inline-block; */
-    /* font-size: 16px; */
-    letter-spacing: 4px;
-    font-size: 110%;
-    cursor: pointer;
 }
 
 .navigation li a:hover {
@@ -210,7 +197,7 @@ section {
     border: 3px solid #DE3163;
     box-shadow: 9px 6px 4px #5B2C6F;
     padding: 7px 11px;
-    background-image: linear-gradient(150deg, #EAFAF1 , #E8DAEF 30%,#E5E8E8 );
+    background-image: linear-gradient(150deg, #EAFAF1, #E8DAEF 30%, #E5E8E8);
     margin: 10px;
     display: inline-block;
     list-style: none;
@@ -242,28 +229,98 @@ ul strong {
     padding-bottom: 20px;
 }
 
-.skill-box {
-  border-radius: 25px;
-  background: #C2848C;
-  padding: 20px;
-  width: 200px;
-  height: 60px;
-  text-align: center;
-  display: inline-block;
-} 
+#skills h2 {
+    letter-spacing: 4px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+}
 
-/* language progress bar*/
-.language {
+.language ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.expertise {
     margin-top: 20px;
-    border-radius: 25px;
     background: rgba(194, 132, 140, .6);
-    padding: 20px;
-    width: 700px;
-    height: auto;
+    /* padding: 20px; */
+    width: 100%;
     text-align: left;
     display: block;
     padding: 5px;
-} 
+}
+
+.skill-box {
+    border-radius: 25px;
+    background: #9A6C81;
+    padding: 20px;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    display: inline-block;
+}
+
+/* tech and human language */
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Clear floats after the columns */
+.language:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.hlan {
+    background-color: #C2848C;
+}
+
+.tools {
+    background-color: #C2848C;
+}
+
+/*tool grid*/
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 2px;
+    background-color: #C2848C;
+    padding: 1px;
+}
+
+.grid-container>div {
+    background-color: rgba(194, 132, 140, .6);
+    text-align: center;
+    padding: 5px 0;
+    font-size: 20px;
+}
+
+.hlan-tools-box {
+    margin-top: 20px;
+    background: rgba(194, 132, 140, .6);
+    /* padding: 20px; */
+    width: 100%;
+    text-align: left;
+    display: block;
+    padding: 5px;
+}
+
+/* computer skills*/
+.tech-lan {
+    margin-top: 20px;
+    background: rgba(194, 132, 140, .6);
+    /* padding: 20px; */
+    width: 100%;
+    text-align: left;
+    display: block;
+    padding: 5px;
+}
 
 .wrapper {
     width: 500px;
@@ -282,26 +339,15 @@ ul strong {
     height: 22px;
     background-color: #3F2E3E;
     border-radius: 3px;
-    
+
     transition: width 500ms ease-in-out;
 }
 
-span {
+.progress-bar span {
     color: #EDC9D2;
 }
 
-/* computer skills*/
-.tech-lan {
-    margin-top: 20px;
-    border-radius: 25px;
-    background: rgba(194, 132, 140, .6);
-    padding: 20px;
-    width: 700px;
-    height: auto;
-    text-align: left;
-    display: block;
-    padding: 5px;
-}
+
 /*-------------------------------------------------------------------  contact me section */
 #contact {
     padding: 1rem;
@@ -326,14 +372,14 @@ span {
 }
 
 .contact-me {
-  display: flex;
+    display: flex;
 }
 
 /* Create two equal columns that sits next to each other */
-.column {
-  flex: 50%;
-  padding: 10px;
-  height: 600px; 
+.con-column {
+    flex: 50%;
+    padding: 10px;
+    height: 600px;
 }
 
 .contact-form {
@@ -346,9 +392,13 @@ span {
     left: 10%;
     padding: 10px;
 }
-#fname, #lname, #email {
+
+#fname,
+#lname,
+#email {
     width: 100%;
 }
+
 .send-button {
     display: block;
 }
