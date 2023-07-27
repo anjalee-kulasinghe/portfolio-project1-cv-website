@@ -125,11 +125,10 @@ hr {
 
 /*-------------------------------------------------------------------  section experience */
 .experience-section {
-    padding: 5rem;
+    padding: 5rem 0;
     margin-bottom: 40px;
     background: url('../images/bokeh-2072271_1920.jpg') center center / cover no-repeat fixed;
     margin-top: 60px;
-
     margin-bottom: 80px;
 }
 
@@ -189,8 +188,8 @@ section {
 
 /*-------------------------------------------------------------------  education section */
 .education-section {
-    padding: 5rem;
-    margin-bottom: 40px;
+    padding: 5rem 0;
+    margin-bottom: 80px;
     display: grid;
     place-items: center;
 }
@@ -212,14 +211,21 @@ h3 {
 }
 
 .education-box {
-    width: 600px;
+    /* width: 600px; */
     border: 3px solid #331D2C;
     box-shadow: 9px 6px 4px #A78295;
-    padding: 7px 11px;
+    padding: 10px;
     background-image: linear-gradient(150deg, #EAFAF1, #E8DAEF 30%, #E5E8E8);
     margin: 10px;
-    display: inline-block;
+    display: block;
     list-style: none;
+}
+
+div .education-box {
+    justify-content: center;
+    width: auto;
+    align-items: center;
+
 }
 
 ul strong {
@@ -231,12 +237,16 @@ ul strong {
     text-align: center;
 }
 
+.education-box ul {
+    padding: 0;
+}
+
 
 
 /*-------------------------------------------------------------------  skills section */
 .skills-section {
-    padding: 5rem;
-    margin-bottom: 40px;
+    padding: 5rem 0;
+    margin-bottom: 80px;
     background: url('../images/bokeh-2072271_1920.jpg') center center / cover no-repeat fixed;
 }
 
@@ -286,6 +296,7 @@ div .skill-box {
     text-align: center;
     box-sizing: border-box;
     vertical-align: middle;
+    margin: 10px;
 
 }
 
@@ -388,8 +399,8 @@ h3 {
 }
 
 .contact-section {
-    padding: 1rem;
-    margin-bottom: 40px;
+    padding: 1rem 0;
+    margin-bottom: 80px;
 
     clear: left;
     background-color: #AC8499;
@@ -520,4 +531,17 @@ footer>p {
 
 .text-uppercase {
     text-transform: uppercase;
+}
+
+
+/*For large to medium screen size from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+    #welcome p {
+        font-size: medium;
+    }
+
+    .vertical-center {
+        top: 10%;
+    }
+
 }
