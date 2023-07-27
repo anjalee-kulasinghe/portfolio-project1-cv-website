@@ -543,7 +543,8 @@ footer>p {
     }
 
     .vertical-center {
-        top: 10%;
+        /* top: 35%; */
+        margin: auto;
     }
 
     /* ---------- skills-section  ----------*/
@@ -563,6 +564,56 @@ footer>p {
     }
 
     #language h2 {
-        font-size: medium;
+        font-size: large;
+    }
+}
+
+/*For large to medium screen size from 800px wide and down */
+@media screen and (max-width: 800px) {
+    .logo {
+        display: none;
+    }
+
+    .navigation ul {
+        text-align: left;
+        padding: 0;
+    }
+
+    .navigation li a {
+
+        font-size: small;
+        padding: 1rem;
+        display: inline;
+        float: left;
+    }
+
+    /*Home section*/
+    .home-section {
+        height: 200px;
+        padding-top: 50px;
+    }
+
+    #profile-img {
+        display: none;
+    }
+
+    #welcome {
+        width: auto;
+        display: inline-block;
+        float: none;
+        padding-top: 80px;
+    }
+
+    #welcome p {
+        font-size: small;
+    }
+
+    .vertical-center {
+        position: inherit;
+    }
+
+    .two-thirds-width-column {
+        width: 50%;
+        display: block;
     }
 }
