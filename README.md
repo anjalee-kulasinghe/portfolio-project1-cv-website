@@ -1,39 +1,51 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Anjalee Kulasinghe Online CV
 
-Welcome,
+## Code Institute - First Milestone Project: User Centric Frontend Development.
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+This website was developed to show case my ability to design and create a static website.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
+Online CV is the website that include my experiance, education, skills & expertices and my contact information. I have created this website to target the potential employment opertunities.Since online resumes is instant, i have the opertunity to update my resume with few clicks and the CV will be up to date.
 
-## Codeanywhere Reminders
+# Table of Contents
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+## Demo
+A live demo version can be found here
 
-`python3 -m http.server`
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## UX
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
 
-`http_server`
+## User stories
+### Strategy
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Scope
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+### Structure
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Skeleton
+wireframe
 
-To log into the Heroku toolbelt CLI:
+### Surface
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## Technologies
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## Features
 
----
+### Existing Features
 
-Happy coding!
+### Features Left to Implement
+
+## Testing
+### Validator Testing
+HTML
+No errors were returned when passing through the official W3C validator
+CSS
+No errors were found when passing through the official (Jigsaw) validator
+### Unfixed Bugs
+
+## Deployment
+
+## Credits
+### Content
+### Media
+### Acknowledgements

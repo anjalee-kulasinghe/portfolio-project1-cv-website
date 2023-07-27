@@ -225,7 +225,6 @@ div .education-box {
     justify-content: center;
     width: auto;
     align-items: center;
-
 }
 
 ul strong {
@@ -343,6 +342,7 @@ div .skill-box {
     text-align: center;
     padding: 5px 0;
     font-size: 20px;
+    font-family: inherit;
 }
 
 .human-language-tools-box {
@@ -536,6 +536,8 @@ footer>p {
 
 /*For large to medium screen size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
+
+    /* ---------- skills-section  ----------*/
     #welcome p {
         font-size: medium;
     }
@@ -544,4 +546,23 @@ footer>p {
         top: 10%;
     }
 
+    /* ---------- skills-section  ----------*/
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        font-size: small;
+    }
+
+    .grid-container div {
+        font-size: small;
+    }
+
+    .human-language li {
+        font-size: small;
+        font-weight: normal;
+    }
+
+    #language h2 {
+        font-size: medium;
+    }
 }
