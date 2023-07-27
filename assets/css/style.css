@@ -65,26 +65,21 @@ hr {
 
 /*-------------------------------------------------------------------  section home */
 .home-section {
-    height: 600px;
-    /* padding: 1rem;
-    margin-bottom: 40px;
-    padding: 16px 0;
-    margin-top: 60px; */
+    height: auto;
+    margin-bottom: 80px;
 }
 
 #profile-img {
-    width: auto;
-    /* height: 600; */
+    width: 65%;
     opacity: .7;
     float: left;
-    /* margin: 2%; */
-    padding-top: 70px;
 }
 
 #welcome {
     display: flex;
     align-items: center;
     justify-content: center;
+    float: right;
 }
 
 #welcome p {
@@ -98,17 +93,17 @@ hr {
 
 .one-third-width-column {
     width: 33.33%;
-    /* display: inline-block; */
+    /* width: 20%; */
 }
 
 .two-thirds-width-column {
     width: 66.66%;
-    display: inline;
+    display: inline-block;
 }
 
 .vertical-center {
-    position: relative;
-    top: 100%;
+    position: absolute;
+    top: 50%;
 }
 
 /*-------------------------------------------------------------------  section experience */
