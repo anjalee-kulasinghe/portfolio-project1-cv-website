@@ -36,7 +36,7 @@ hr {
     overflow: hidden;
     width: 100%;
     top: 0;
-    height: auto;
+    height: 75px;
 }
 
 .navigation li {
@@ -66,6 +66,7 @@ hr {
 
 /*-------------------------------------------------------------------  section home */
 .home-section {
+    padding: 5rem 0;
     height: auto;
     margin-bottom: 80px;
 }
@@ -97,6 +98,23 @@ hr {
     animation-name: welcome-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
+}
+
+h3 div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.home-section h3 {
+    font-family: 'Patrick Hand',
+        'Courier New';
+    color: #A78295;
+    font-size: x-large;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: auto;
 }
 
 #welcome p {
@@ -425,11 +443,19 @@ h3 {
 }
 
 /* Create two equal columns that sits next to each other */
-.contact-column {
+.column {
     float: left;
     width: 50%;
     padding: 10px;
+    height: auto;
     box-sizing: border-box;
+}
+
+/* Clear floats after the columns */
+.contact-me:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .contact-form {
@@ -439,6 +465,7 @@ h3 {
     width: 90%;
     padding: 14px;
 }
+
 
 #fname,
 #lname,
@@ -454,7 +481,8 @@ h3 {
 
 input[type=submit] {
     margin-top: 20px;
-    margin-left: 0.75rem;
+    margin-left: 20px;
+    margin-bottom: 20px;
     padding: 0.75rem;
     font-size: 100%;
     background-color: #3F2E3E;
@@ -466,7 +494,8 @@ input[type=submit] {
 
 input[type=reset] {
     margin-top: 20px;
-    margin-left: 0.75rem;
+    margin-right: 20px;
+    margin-bottom: 20px;
     padding: 0.75rem;
     background-color: #EDC9D2;
     color: #3F2E3E;
@@ -483,8 +512,8 @@ input[type=reset] {
 }
 
 #profile-image {
-    width: 50px;
-    height: auto;
+    width: 100%;
+    /* height: auto; */
     margin-bottom: 10px;
 }
 
@@ -517,7 +546,7 @@ footer {
     background-color: #3F2E3E;
     padding: 1em;
     text-align: center;
-    width: 100%;
+    width: auto;
     bottom: 0;
     right: 0;
     z-index: 3;
@@ -537,9 +566,9 @@ footer>p {
 /*For large to medium screen size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
 
-    /* ---------- skills-section  ----------*/
+    /* ---------- home-section  ----------*/
     #welcome p {
-        font-size: medium;
+        font-size: x-large;
     }
 
     .vertical-center {
@@ -568,10 +597,36 @@ footer>p {
     }
 }
 
-/*For large to medium screen size from 800px wide and down */
+/*For screen size from 800px wide and down */
 @media screen and (max-width: 800px) {
+
+    .experience-section,
+    .education-section,
+    .skills-section,
+    .contact-section {
+        margin-bottom: 10px;
+    }
+
+    .experience-section h1,
+    .education-section h1,
+    .skills-section h1,
+    .contact-section h1 {
+        font-size: large;
+    }
+
+    .experience-section h2,
+    .education-section h2,
+    .skills-section h2,
+    .contact-section h2 {
+        font-size: medium;
+    }
+
     .logo {
         display: none;
+    }
+
+    .navigation {
+        height: auto;
     }
 
     .navigation ul {
@@ -582,38 +637,69 @@ footer>p {
     .navigation li a {
 
         font-size: small;
-        padding: 1rem;
+        padding: 3px;
         display: inline;
         float: left;
     }
 
     /*Home section*/
     .home-section {
-        height: 200px;
-        padding-top: 50px;
-    }
-
-    #profile-img {
-        display: none;
+        /* height: 200px; */
+        padding-top: 4%;
     }
 
     #welcome {
         width: auto;
         display: inline-block;
         float: none;
-        padding-top: 80px;
+        padding-top: 40px;
+    }
+
+    #welcome p {
+        font-size: medium;
+    }
+
+    .vertical-center {
+        position: relative;
+    }
+
+    .two-thirds-width-column {
+        width: 40%;
+        display: -webkit-inline-box;
+    }
+}
+
+/*For screen size from 550px wide and down */
+@media screen and (max-width: 550px) {
+    /*home section*/
+
+    #profile-img {
+        display: none;
     }
 
     #welcome p {
         font-size: small;
     }
 
-    .vertical-center {
-        position: inherit;
+    .column {
+        width: 100%;
     }
 
-    .two-thirds-width-column {
-        width: 50%;
-        display: block;
+    .contact-form {
+        width: 100%;
+        padding: 8px;
     }
-}
+
+
+    #fname,
+    #lname,
+    #email,
+    #message {
+        width: 100%;
+    }
+
+    input[type=reset] {
+        margin-left: 20px;
+        margin-top: 0;
+        float: none;
+    }
