@@ -63,17 +63,30 @@ For the users (employers and recruiters), I wanted to give them a good overview 
 ### Structure
 I followed the traditional CV framework since it is not overly complicated and it will be easy for the users to find the information they are looking for. The Online CV website has a single, long, scrolling page design. My structure features a fixed top navigation that connects the user to each of the sections from anywhere on the page. I have also included a link at the end of the navigation to download a copy of the traditional CV if the user likes that format.
 
-**Website Sections:
-1. **__Home / Landing page:__** A simple introduction about myself.
-2. **__Experience:__** My work histories are displayed in reverse chronological order.
-3. **__Education:__** My education history is displayed in reverse chronological order.
-4. ****Skills:**** Four focus areas are divided into boxes, which include my professional skillset, language proficiency, technical languages, and technical tools that I am familiar with.
-5. **__Contact:__** A contact page featuring basic contact information, including social media links and a contact form.
-6. ****Footer:**** This is not the main section of the website but rather an ending to the website with copywriting information.
+**Website Sections:**
+1. **_Home / Landing page:_** A simple introduction about myself.
+2. **_Experience:_** My work histories are displayed in reverse chronological order.
+3. **_Education:_** My education history is displayed in reverse chronological order.
+4. **_Skills:_** Four focus areas are divided into boxes, which include my professional skillset, language proficiency, technical languages, and technical tools that I am familiar with.
+5. **_Contact:_** A contact page featuring basic contact information, including social media links and a contact form.
+6. **_Footer:_** This is not the main section of the website but rather an ending to the website with copywriting information.
 
 ### Skeleton
-wireframe
+The website is designed to be clear and simple. And the site has a simple tree structure with hierarchical flows from top to bottom.
+
+**Wireframe**
+The wireframe is designed using Balsamiq software. The first draft was edited with the guidance of the mentor. Although the site was built as a single-page scrolling website, the wireframe was designed to focus on each and every section as a single page and connect them using the navigation.
+
+My wireframe design in the [(pdf format)](./readme-assets/wireFrame.pdf)
+
 ### Surface
+I have selected a plain color for the main background color. But I also used a background image with bubbles in two sections. I have started the Diploma in Fullstack Development at Code Institute, which is the beginning of a new chapter of my life. The bubble background represents the meaning of change and transformation. I have selected the color theme that goes with the background image I have selected.
+
+_Background image and the colors_
+![Background image used](./readme-assets/Background_Image.PNG)
+
+_Main color palette_
+![Main color Palette](./readme-assets/Main_Color_Palette.png)
 
 ## Technologies
 
