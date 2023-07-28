@@ -151,7 +151,10 @@ _Main color palette_
 
 
 ### Features Left to Implement
-In the future, I would like to add the Portfolio section to the online CV, where I can add links to the websites that I have designed, along with a link to Github. If an employer is interested in my work, they can go in and have a look.
+In the future, 
+* I would like to add the Portfolio section to the online CV, where I can add links to the websites that I have designed, along with a link to Github. If an employer is interested in my work, they can go in and have a look.
+* I would like to make the contact form functional.
+* I would like to improve the performance of the website.
 
 
 ## Testing
