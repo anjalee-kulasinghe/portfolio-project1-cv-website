@@ -2,9 +2,9 @@
 
 ## Code Institute - First Milestone Project: User Centric Frontend Development.
 
-This website was developed to show case my ability to design and create a static website.
+This website was developed to showcase my ability to design and create a static website.
 
-Online CV is the website that include my experiance, education, skills & expertices and my contact information. I have created this website to target the potential employment opertunities.Since online resumes is instant, i have the opertunity to update my resume with few clicks and the CV will be up to date.
+Online CV is the website that includes my experience, education, skills, and expertise, as well as my contact information. I have created this website to target the potential employment opportunities. Since online resumes are instant, I have the opportunity to update my resume with a few clicks, and the CV will be up-to-date.
 
 # Table of Contents
 - [Anjalee Kulasinghe Online CV](#anjalee-kulasinghe-online-cv)
@@ -32,13 +32,32 @@ Online CV is the website that include my experiance, education, skills & experti
     - [Acknowledgements](#acknowledgements)
 
 ## Demo
-A live demo version can be found here
+
+![Website look on different devices](./readme-assets/device_look.PNG)
+
+A live demo od the website can be found [here](https://anjalee-kulasinghe.github.io/portfolio-project1-cv-website/index.html)
 
 
 ## UX
-
+There are two user groups were trgeted in this website. The employers and the recruiters.
+Site is foucused on the simplisity and easily to navigate the users for the main focus areas of my resume.
 
 ## User stories
+As the sole developer of this website, my gole is to secure employment opertunites in the web development area as well as the other potentental employment in the development area.
+I came up with the following points which are aplicable for the users.
+
+* As a user, I would like to be able to quickly and easily understand the purpose of this website.
+
+As a user I want to be able to easily navigate this website, using a mouse or a keyboard, or screen reader technology.
+
+As a user I would like to view this candidate's work and education history.
+
+As a user I would like to know what languages this candidate is able to work in.
+
+As a user I would like to see examples of projects this candidate has developed.
+
+As a user I would like a way to contact this candidate.
+
 ### Strategy
 ### Scope
 ### Structure
@@ -55,9 +74,9 @@ wireframe
 ## Testing
 ### Validator Testing
 * **HTML**
-  No errors were returned when passing through the official W3C validator
+  No errors were returned when passing through the official [W3C validator](./readme-assets/validator_result_html.PNG)
 * **CSS**
-No errors were found when passing through the official (Jigsaw) validator
+No errors were found when passing through the official (Jigsaw) [validator](./readme-assets/css-validator_result.PNG)
 ### Unfixed Bugs
 
 ## Deployment
