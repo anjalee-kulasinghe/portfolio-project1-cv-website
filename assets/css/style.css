@@ -26,6 +26,7 @@ hr {
     width: 75px;
     height: auto;
     float: left;
+    object-fit: contain;
 }
 
 
@@ -66,7 +67,7 @@ hr {
 
 /*-------------------------------------------------------------------  section home */
 /* creates the level of zoom for hero image */
-/* @keyframes welcome-zoom {
+@keyframes welcome-zoom {
     from {
         transform: scale(1);
     }
@@ -74,13 +75,7 @@ hr {
     to {
         transform: scale(1.1);
     }
-} */
-
-
-/* animates zoom effect on loading page */
-/* animation-name: welcome-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards; */
+}
 
 .home-section {
     padding: 5rem 0;
@@ -89,16 +84,11 @@ hr {
 }
 
 #profile-img {
-    width: 100%;
+    width: 50%;
     opacity: .7;
     float: left;
     height: auto;
-}
-
-#welcome div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    object-fit: contain;
 }
 
 .home-section h3 {
@@ -108,27 +98,41 @@ hr {
     font-size: x-large;
     letter-spacing: 2px;
     text-align: center;
-
 }
 
 .home-section h1 {
     font-family: 'Patrick Hand',
         'Courier New';
     color: #A78295;
-    font-size: x-large;
+    font-size: xx-large;
     letter-spacing: 2px;
     text-align: center;
+}
 
+#welcome {
+    margin: 0;
+
+    /* animates zoom effect on loading page */
+    animation-name: welcome-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+div #welcome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
 }
 
 .one-third-width-column {
     width: 33.33%;
-
 }
 
 .two-thirds-width-column {
     width: 66.66%;
-
+    display: inline-flex;
+    padding-left: 220px;
 }
 
 .vertical-center {
@@ -142,7 +146,7 @@ hr {
 .experience-section {
     padding: 5rem 0;
     margin-bottom: 40px;
-    background: url('../images/bokeh-2072271_1920.jpg') center center / cover no-repeat fixed;
+    background: url('../images/bokeh-2072271_1920.webp') center center / cover no-repeat fixed;
     margin-top: 60px;
     margin-bottom: 80px;
 }
@@ -181,6 +185,7 @@ h3 {
     margin: auto;
     width: 90%;
     padding: 10px;
+    margin-bottom: 10px;
 }
 
 #experience2 {
@@ -188,6 +193,7 @@ h3 {
     margin: auto;
     width: 90%;
     padding: 10px;
+    margin-bottom: 10px;
 }
 
 #experience3 {
@@ -261,7 +267,7 @@ ul strong {
 .skills-section {
     padding: 5rem 0;
     margin-bottom: 80px;
-    background: url('../images/bokeh-2072271_1920.jpg') center center / cover no-repeat fixed;
+    background: url('../images/bokeh-2072271_1920.webp') center center / cover no-repeat fixed;
 }
 
 .skills-section h1,
@@ -510,8 +516,8 @@ input[type=reset] {
 
 #profile-image {
     width: 100%;
-    /* height: auto; */
     margin-bottom: 10px;
+    object-fit: contain;
 }
 
 #personal-information h3 {
@@ -564,17 +570,23 @@ footer>p {
 @media screen and (max-width: 1200px) {
 
     /* ---------- home-section  ----------*/
-    #welcome p {
+    .home-section h1 {
         font-size: x-large;
     }
 
+    .home-section h3 {
+        font-size: large;
+    }
+
     .vertical-center {
-        top: 15%;
-        /* margin: auto; */
+        top: 50%;
+        position: relative;
     }
 
     .two-thirds-width-column {
         display: inline-flex;
+        padding-top: 140px;
+        padding-left: 100px;
     }
 
     /* ---------- skills-section  ----------*/
@@ -601,9 +613,7 @@ footer>p {
 /*For screen size from 800px wide and down */
 @media screen and (max-width: 800px) {
 
-    .experience-section {
-        margin-top: 0;
-    }
+    /*heading size for all sections*/
 
     .home-section,
     .experience-section,
@@ -626,6 +636,14 @@ footer>p {
     .contact-section h2 {
         font-size: medium;
     }
+
+    /*experience section*/
+
+    .experience-section {
+        margin-top: 0;
+    }
+
+    /* navigation */
 
     .logo {
         display: none;
@@ -652,23 +670,30 @@ footer>p {
         padding-top: 4%;
     }
 
-    #welcome {
-        width: auto;
-        display: inline-block;
+    div #welcome {
         float: none;
-        padding-top: 40px;
     }
 
-    #welcome p {
+    #welcome {
+        width: auto;
+        float: none;
+        padding-top: 100px;
+    }
+
+    .home-section h1 {
+        font-size: large;
+    }
+
+    .home-section h3 {
         font-size: medium;
     }
 
     .vertical-center {
-        position: absolute;
+        position: relative;
     }
 
     .two-thirds-width-column {
-        width: 60%;
+        display: inline;
     }
 }
 
@@ -680,10 +705,15 @@ footer>p {
         display: none;
     }
 
-    #welcome p {
+    .home-section h1 {
+        font-size: medium;
+    }
+
+    .home-section h3 {
         font-size: small;
     }
 
+    /*contact section*/
     .column {
         width: 100%;
     }
