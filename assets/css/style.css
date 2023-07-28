@@ -65,20 +65,8 @@ hr {
 
 
 /*-------------------------------------------------------------------  section home */
-.home-section {
-    padding: 5rem 0;
-    height: auto;
-    margin-bottom: 80px;
-}
-
-#profile-img {
-    width: 65%;
-    opacity: .7;
-    float: left;
-}
-
 /* creates the level of zoom for hero image */
-@keyframes welcome-zoom {
+/* @keyframes welcome-zoom {
     from {
         transform: scale(1);
     }
@@ -86,25 +74,31 @@ hr {
     to {
         transform: scale(1.1);
     }
-}
+} */
 
-#welcome {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    float: right;
 
-    /* animates zoom effect on loading page */
-    animation-name: welcome-zoom;
+/* animates zoom effect on loading page */
+/* animation-name: welcome-zoom;
     animation-duration: 5s;
-    animation-fill-mode: forwards;
+    animation-fill-mode: forwards; */
+
+.home-section {
+    padding: 5rem 0;
+    height: auto;
+    margin-bottom: 80px;
 }
 
-h3 div {
+#profile-img {
+    width: 100%;
+    opacity: .7;
+    float: left;
+    height: auto;
+}
+
+#welcome div {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: auto;
 }
 
 .home-section h3 {
@@ -114,16 +108,17 @@ h3 div {
     font-size: x-large;
     letter-spacing: 2px;
     text-align: center;
-    margin: auto;
+
 }
 
-#welcome p {
+.home-section h1 {
     font-family: 'Patrick Hand',
         'Courier New';
     color: #A78295;
-    font-size: xx-large;
+    font-size: x-large;
     letter-spacing: 2px;
     text-align: center;
+
 }
 
 .one-third-width-column {
@@ -133,13 +128,15 @@ h3 div {
 
 .two-thirds-width-column {
     width: 66.66%;
-    display: inline-block;
+
 }
 
 .vertical-center {
     position: absolute;
     top: 50%;
 }
+
+
 
 /*-------------------------------------------------------------------  section experience */
 .experience-section {
@@ -438,7 +435,7 @@ h3 {
 }
 
 .contact-me {
-    display: flex;
+    display: block;
     width: auto;
 }
 
@@ -572,8 +569,12 @@ footer>p {
     }
 
     .vertical-center {
-        /* top: 35%; */
-        margin: auto;
+        top: 15%;
+        /* margin: auto; */
+    }
+
+    .two-thirds-width-column {
+        display: inline-flex;
     }
 
     /* ---------- skills-section  ----------*/
@@ -600,6 +601,11 @@ footer>p {
 /*For screen size from 800px wide and down */
 @media screen and (max-width: 800px) {
 
+    .experience-section {
+        margin-top: 0;
+    }
+
+    .home-section,
     .experience-section,
     .education-section,
     .skills-section,
@@ -635,7 +641,6 @@ footer>p {
     }
 
     .navigation li a {
-
         font-size: small;
         padding: 3px;
         display: inline;
@@ -644,7 +649,6 @@ footer>p {
 
     /*Home section*/
     .home-section {
-        /* height: 200px; */
         padding-top: 4%;
     }
 
@@ -660,12 +664,11 @@ footer>p {
     }
 
     .vertical-center {
-        position: relative;
+        position: absolute;
     }
 
     .two-thirds-width-column {
-        width: 40%;
-        display: -webkit-inline-box;
+        width: 60%;
     }
 }
 
@@ -703,3 +706,4 @@ footer>p {
         margin-top: 0;
         float: none;
     }
+}
