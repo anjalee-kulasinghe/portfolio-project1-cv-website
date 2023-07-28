@@ -86,25 +86,45 @@ _Background image and the colors_
 ![Background image used](./readme-assets/Background_Image.PNG)
 
 _Main color palette_
+
 ![Main color Palette](./readme-assets/Main_Color_Palette.png)
 
 ## Technologies
+1. HTML - To create a basic site
+2. CSS - To create a nice, standout front-end and to give a great user experience
+3. Balsamiq - To create a wireframe
 
 ## Features
 ### Existing Features
+* **Navigation Bar**
+  * The navigation bar is at the top of the page, and it is fixed to the top. The logo is in the left-hand corner of the navigation, and it links to the index.html page. 
+  * The other navigation links on the website are to the right. Experience, Education, Skills, and Contact connect to different sections of the same page. Download CV is a link embedded in a pdf that will download the traditional CV to the device on which the website is open.
+  * The font color is in contrast with the navigation background color. The hover effect is used for navigation, so the user can know which page they are on. 
+  * The different sections of the navigation are under the same heading as a traditional CV. Users can easily understand what information is contained in different sections.
+
+![navigation_bar](./readme-assets/navigation.PNG)
+
 ### Features Left to Implement
 
 ## Testing
+
 ### Validator Testing
 * **HTML**
   No errors were returned when passing through the official [W3C validator](./readme-assets/validator_result_html.PNG)
-* **CSS**
-No errors were found when passing through the official (Jigsaw) [validator](./readme-assets/css-validator_result.PNG)
+
+* **CSS**  
+  No errors were found when passing through the official [(Jigsaw) validator](./readme-assets/css-validator_result.PNG)
+  
+* **Accessibility**
+  I confirmed that the colors and fonts chosen are easy to read and accessible by running it through [Lighthouse DevTools](./readme-assets/site_accessibility.PNG)
+
+
 ### Unfixed Bugs
 
 ## Deployment
 
 ## Credits
+
 ### Content
 ### Media
 ### Acknowledgements
