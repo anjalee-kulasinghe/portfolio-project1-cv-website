@@ -71,7 +71,6 @@ hr {
     padding: 22px 16px;
     display: inline-block;
     float: right;
-    /* letter-spacing: 2px; */
 }
 
 .navigation ul {
@@ -94,24 +93,27 @@ hr {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    max-width: 600px;
     height: auto;
 }
 
 .image-anji {
     display: block;
     width: 100%;
+    max-width: 900px;
     height: auto;
-    opacity: 0.6;
+    opacity: 0.5;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .image-anji-overlay {
     position: absolute;
     top: 0;
-    left: 0%;
+    left: 0;
+
     width: 100%;
     height: 100%;
-    background: rgba(51, 29, 44, .7);
+    background: rgba(51, 29, 44, .3);
     color: white;
     font-family: 'Patrick Hand',
         'Courier New';
@@ -120,17 +122,44 @@ hr {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.image-anji-overlay:hover {
+    opacity: 1;
 }
 
 .welcome-message {
     text-align: center;
+    font-size: 2vw;
+    padding-left: 5px;
+    padding-right: 5px;
+
+    /* animates zoom effect on loading page */
+    animation-name: welcome-zoom;
+    animation-duration: 5s;
+    /* animation-delay: 2s; */
+    animation-fill-mode: forwards;
+}
+
+.welcome-message .heding1,
+.heding3 {
+    color: #3F2E3E;
+    ;
+}
+
+.heding1 strong {
+    text-decoration: underline;
+    color: #331D2C;
 }
 
 
 
 /*-------------------------------------------------------------------  section experience */
 .experience-section {
-    padding: 5rem 0;
+    padding: 5rem 0 0;
     background: url('../images/bokeh-2072271_1920.webp') center center / cover no-repeat fixed;
 }
 
@@ -176,7 +205,7 @@ section {
 
 /*-------------------------------------------------------------------  education section */
 .education-section {
-    padding: 5rem 0;
+    padding: 5rem 0 0;
     display: grid;
     place-items: center;
 }
@@ -214,7 +243,7 @@ ul strong {
 
 /*-------------------------------------------------------------------  skills section */
 .skills-section {
-    padding: 5rem 0;
+    padding: 5rem 0 0;
     background: url('../images/bokeh-2072271_1920.webp') center center / cover no-repeat fixed;
 }
 
@@ -354,7 +383,7 @@ div .skill-box {
 
 /*-------------------------------------------------------------------  contact me section */
 .contact-section {
-    padding: 5rem 0;
+    padding: 5rem 0 0;
     clear: left;
     background-color: #AC8499;
     background-size: cover;
@@ -503,26 +532,6 @@ footer>p {
 /*For large to medium screen size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
 
-    /* ---------- home-section  ----------*/
-    .home-section h1 {
-        font-size: x-large;
-    }
-
-    .home-section h3 {
-        font-size: large;
-    }
-
-    .vertical-center {
-        top: 50%;
-        position: relative;
-    }
-
-    .two-thirds-width-column {
-        display: inline-flex;
-        padding-top: 140px;
-        padding-left: 100px;
-    }
-
     /* ---------- skills-section  ----------*/
     .grid-container {
         display: grid;
@@ -554,7 +563,7 @@ footer>p {
     .education-section,
     .skills-section,
     .contact-section {
-        margin-bottom: 10px;
+        padding: 3rem 0 0;
     }
 
     .experience-section h1,
@@ -569,6 +578,11 @@ footer>p {
     .skills-section h2,
     .contact-section h2 {
         font-size: medium;
+    }
+
+    /*home section*/
+    .home-section {
+        padding-top: 0;
     }
 
     /*experience section*/
@@ -598,54 +612,10 @@ footer>p {
         display: inline;
         float: left;
     }
-
-    /*Home section*/
-    .home-section {
-        padding-top: 4%;
-    }
-
-    div #welcome {
-        float: none;
-    }
-
-    #welcome {
-        width: auto;
-        float: none;
-        padding-top: 100px;
-    }
-
-    .home-section h1 {
-        font-size: large;
-    }
-
-    .home-section h3 {
-        font-size: medium;
-    }
-
-    .vertical-center {
-        position: relative;
-    }
-
-    .two-thirds-width-column {
-        display: inline;
-    }
 }
 
 /*For screen size from 550px wide and down */
 @media screen and (max-width: 550px) {
-    /*home section*/
-
-    #profile-img {
-        display: none;
-    }
-
-    .home-section h1 {
-        font-size: medium;
-    }
-
-    .home-section h3 {
-        font-size: small;
-    }
 
     /*contact section*/
     .column {
@@ -653,7 +623,6 @@ footer>p {
     }
 
     .contact-form {
-        /* width: 100%; */
         padding: 8px;
     }
 
