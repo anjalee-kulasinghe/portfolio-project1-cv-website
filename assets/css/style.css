@@ -55,7 +55,7 @@ hr {
     overflow: hidden;
     width: 100%;
     top: 0;
-    height: 75px;
+    height: auto;
     z-index: 100;
 }
 
@@ -549,18 +549,25 @@ footer>p {
         padding: 3rem 0 0;
     }
 
-    .experience-section h1,
-    .education-section h1,
-    .skills-section h1,
-    .contact-section h1 {
+    .experience-section>.heding1,
+    .education-section>.heding1,
+    .skills-section>.heding1,
+    .contact-section>.heding1 {
         font-size: large;
     }
 
-    .experience-section h2,
-    .education-section h2,
-    .skills-section h2,
-    .contact-section h2 {
+    .experience-section .heding2,
+    .education-section .heding2,
+    .skills-section .heding2,
+    .contact-section .heding2 {
         font-size: medium;
+    }
+
+    .experience-section .heding3,
+    .education-section .heding3,
+    .skills-section .heding3,
+    .contact-section .heding3 {
+        font-size: small;
     }
 
     /*experience section*/
@@ -573,10 +580,6 @@ footer>p {
 
     .logo {
         display: none;
-    }
-
-    .navigation {
-        height: auto;
     }
 
     .navigation ul {
@@ -594,6 +597,35 @@ footer>p {
 
 /*For screen size from 550px wide and down */
 @media screen and (max-width: 550px) {
+
+    .experience-section>.heding1,
+    .education-section>.heding1,
+    .skills-section>.heding1,
+    .contact-section>.heding1 {
+        font-size: medium;
+    }
+
+    .experience-section .heding2,
+    .education-section .heding2,
+    .skills-section .heding2,
+    .contact-section .heding2 {
+        font-size: small;
+    }
+
+    .experience-section .heding3,
+    .education-section .heding3,
+    .skills-section .heding3,
+    .contact-section .heding3 {
+        font-size: small;
+    }
+
+    .experience-section p {
+        font-size: small;
+    }
+
+    .experience-section li {
+        font-size: small;
+    }
 
     /*contact section*/
     .column {
