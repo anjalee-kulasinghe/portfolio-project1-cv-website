@@ -158,6 +158,11 @@ In the future,
 
 
 ## Testing
+* I tested the site, and it works in different web browsers: Chrome, Firefox, and Microsoft Edge.
+* I confirmed that the site is responsive and functions on different screen sizes using the devtools device toolbar.
+* I confirmed that the navigation and the sections Home, Experience, Education, Skills, and Contact are readable and easy to understand.
+* I confirmed that the form works: it requires entries in every field, only accepts an email in the email field, and both the submit and reset buttons work.
+* I confirmed that the Download CV link will download the pdf copy of the traditional CV to the device on which the site is open.
 
 ### Validator Testing
 * **HTML**
@@ -175,7 +180,17 @@ In the future,
 ## Deployment
 
 ## Credits
-
 ### Content
+* The progress bar code was taken from [WeiChiaChang](<https://gist.github.com/WeiChiaChang/abe92ca2e8da86ef69560b63903e8764>).
+* The code for the two column responsive [layout](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_two_columns_responsive) and [fixed navigation](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_two_columns_responsive) from www.w3schools.com.
+* social media links
+
 ### Media
+The imge used as a background image is taken from [Pixabay].
+
 ### Acknowledgements
+* The idea for the home page was taken from the site of [Sabanna](<https://www.sabanna.online/>).
+* Inspirational support from [Karina Finegan](https://kairosity.github.io/milestone-project-1-cv-website/?#home-section)
+* The site [tech-lagoon](https://tech-lagoon.com/imagechef/en/image-to-edge.html) to convert the Profile photo to a watercolor image.
+* The the Code Institute tutor support team for helping me with the correct guidance.
+* My mentor, Medale Oluwafemi, for his invaluable guidance.
