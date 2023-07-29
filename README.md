@@ -167,13 +167,13 @@ In the future,
 
 ### Validator Testing
 * **HTML**
-    No errors were returned when passing through the official [W3C validator](./readme-assets/validator_result_html.PNG)
+  No errors were returned when passing through the official [W3C validator](./readme-assets/validator_result_html.PNG)
 
 * **CSS**
-    No errors were found when passing through the official [(Jigsaw) validator](./readme-assets/css-validator_result.PNG)
+  No errors were found when passing through the official [(Jigsaw) validator](./readme-assets/css-validator_result.PNG)
   
 * **Accessibility**
-    I confirmed that the colors and fonts chosen are easy to read and accessible by running it through [Lighthouse DevTools](./readme-assets/site_accessibility.PNG)
+  I confirmed that the colors and fonts chosen are easy to read and accessible by running it through [Lighthouse DevTools](./readme-assets/site_accessibility.PNG)
 
 ### Bugs
 * **Solved bugs**
