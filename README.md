@@ -11,7 +11,7 @@ Online CV is the website that includes my experience, education, skills, and exp
   - [Code Institute - First Milestone Project: User Centric Frontend Development.](#code-institute---first-milestone-project-user-centric-frontend-development)
 - [Table of Contents](#table-of-contents)
   - [Demo](#demo)
-    - [A live demo od the website can be found here](#a-live-demo-od-the-website-can-be-found-here)
+    - [A live demo to the website can be found here](#a-live-demo-to-the-website-can-be-found-here)
   - [UX](#ux)
   - [User stories](#user-stories)
     - [Strategy](#strategy)
@@ -36,7 +36,7 @@ Online CV is the website that includes my experience, education, skills, and exp
 
 ![Website look on different devices](./readme-assets/device_look.PNG)
 
-### A live demo od the website can be found [here](https://anjalee-kulasinghe.github.io/portfolio-project1-cv-website/index.html)
+### A live demo to the website can be found [here](https://anjalee-kulasinghe.github.io/portfolio-project1-cv-website/index.html)
 
 
 ## UX
@@ -214,7 +214,7 @@ The imge used as a background image is taken from [Pixabay].
 
 ### Acknowledgements
 * The idea for the home page was taken from the site of [Sabanna](<https://www.sabanna.online/>).
-* Inspirational support from [Karina Finegan](https://kairosity.github.io/milestone-project-1-cv-website/?#home-section) project
+* Inspirational support from [Karina Finegan](https://kairosity.github.io/milestone-project-1-cv-website/?#home-section) project.
 * Ideas were taken from the Code Institute's Coffee House and Love Running projects.
 * The site [tech-lagoon](https://tech-lagoon.com/imagechef/en/image-to-edge.html) to convert the Profile photo to a watercolor image.
 * The the Code Institute tutor support team for helping me with the correct guidance.
