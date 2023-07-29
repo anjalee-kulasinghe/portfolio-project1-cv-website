@@ -172,7 +172,7 @@ hr {
 #experience1 {
     background-color: #EDC9D2;
     margin: auto;
-    width: 90%;
+    /* width: 90%; */
     padding: 10px;
     margin-bottom: 10px;
 }
@@ -180,7 +180,7 @@ hr {
 #experience2 {
     background-color: #C2848C;
     margin: auto;
-    width: 90%;
+    /* width: 90%; */
     padding: 10px;
     margin-bottom: 10px;
 }
@@ -188,8 +188,8 @@ hr {
 #experience3 {
     background-color: #EDC9D2;
     margin: auto;
-    width: 90%;
     padding: 10px;
+    margin-bottom: 10px;
 }
 
 section {
