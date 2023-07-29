@@ -25,7 +25,7 @@ Online CV is the website that includes my experience, education, skills, and exp
     - [Features Left to Implement](#features-left-to-implement)
   - [Testing](#testing)
     - [Validator Testing](#validator-testing)
-    - [Unfixed Bugs](#unfixed-bugs)
+    - [Bugs](#bugs)
   - [Deployment](#deployment)
   - [Credits](#credits)
     - [Content](#content)
@@ -159,6 +159,7 @@ In the future,
 
 ## Testing
 * I tested the site, and it works in different web browsers: Chrome, Firefox, and Microsoft Edge.
+* On mobile devices, I tested the my site on a Samsung Galaxy S23 Ultra with the Samsung browser and an iPhone SE with the Safari browser.
 * I confirmed that the site is responsive and functions on different screen sizes using the devtools device toolbar.
 * I confirmed that the navigation and the sections Home, Experience, Education, Skills, and Contact are readable and easy to understand.
 * I confirmed that the form works: it requires entries in every field, only accepts an email in the email field, and both the submit and reset buttons work.
@@ -174,23 +175,47 @@ In the future,
 * **Accessibility**
   I confirmed that the colors and fonts chosen are easy to read and accessible by running it through [Lighthouse DevTools](./readme-assets/site_accessibility.PNG)
 
+### Bugs
+* **Solved bugs**
+  * When I deployed my project to GitHub pages, I found that my project was broken; the links to the other files (CSS and images) did not work.
+  * My mentor showed me this had happened since I have used the file paths in the following way:
+     <link rel="stylesheet" href="/assets/css/style.css"> 
+  * Adding a . to the start of the file path fixed the problem.
+     <link rel="stylesheet" href="./assets/css/style.css">
 
-### Unfixed Bugs
+  * When I was fixing my site to be responsive, I found out that in the 'Contact Me' section, the contact form does not go below the screen when the screen is small. 
+  * This has happened since I have used <display: flex;>. 
+  * Changing flex to block fixed the problem <display: block;>.
+  
+  
+* **Unfixed Bugs**
+When I checked my site on a Samsung Galaxy S23 Ultra with the Samsung browser, I found out that the navigation is not responsive properly (especially the experience link), and even though the navigation is fixed to the top, it is hiding in the address bar. I have to pull it down when I need to use the navigation bar.
+
 
 ## Deployment
+* The site was deployed to Git Hub pages using the following steps:
+  * In the Github repository, the Stetting tab.
+  * Under General, navigate to Code and Automation and select 'Pages'.
+  * In the Build and Deployment section for Source, select 'Deploy from a branch' from the drop-down list.
+  * For Branch, select 'main' from the drop-down list and Save.
+  * On the top of the page, the link to the complete website is provided.
+  
+  - The deployed site will update automatically upon new commits to the master branch.
+
 
 ## Credits
 ### Content
 * The progress bar code was taken from [WeiChiaChang](<https://gist.github.com/WeiChiaChang/abe92ca2e8da86ef69560b63903e8764>).
 * The code for the two column responsive [layout](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_two_columns_responsive) and [fixed navigation](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_two_columns_responsive) from www.w3schools.com.
-* social media links
+* Animation added to the home text is taken from the Code Institute's [Love Running](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/tree/main) project.
 
 ### Media
 The imge used as a background image is taken from [Pixabay].
 
 ### Acknowledgements
 * The idea for the home page was taken from the site of [Sabanna](<https://www.sabanna.online/>).
-* Inspirational support from [Karina Finegan](https://kairosity.github.io/milestone-project-1-cv-website/?#home-section)
+* Inspirational support from [Karina Finegan](https://kairosity.github.io/milestone-project-1-cv-website/?#home-section) project.
+- Ideas were taken from the Code Institute's Coffee House and Love Running projects.
 * The site [tech-lagoon](https://tech-lagoon.com/imagechef/en/image-to-edge.html) to convert the Profile photo to a watercolor image.
 * The the Code Institute tutor support team for helping me with the correct guidance.
 * My mentor, Medale Oluwafemi, for his invaluable guidance.
