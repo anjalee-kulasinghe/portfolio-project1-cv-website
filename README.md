@@ -68,8 +68,8 @@ I followed the traditional CV framework since it is not overly complicated and i
 2. **_Experience:_** My work histories are displayed in reverse chronological order.
 3. **_Education:_** My education history is displayed in reverse chronological order.
 4. **_Skills:_** Four focus areas are divided into boxes, which include my professional skillset, language proficiency, technical languages, and technical tools that I am familiar with.
-5. **_Contact:_** A contact page featuring basic contact information, including social media links and a contact form.
-6. **_Footer:_** This is not the main section of the website but rather an ending to the website with copywriting information.
+5. **_Contact:_** A contact page featuring basic contact information, and a contact form to contact me via the webpage.
+6. **_Footer:_** This is not the main section of the website but rather an ending to the website with social media links and copywriting information.
 
 ### Skeleton
 The website is designed to be clear and simple. And the site has a simple tree structure with hierarchical flows from top to bottom.
@@ -106,8 +106,8 @@ _Main color palette_
 
 
 * **Home**
-  * On the left-hand side of the Home section, a watercolor-effect profile image is there to give the site an artistic look.
-  * On the right-hand side, there is a brief introduction to Anjalee Kulasinghe (me).
+  - As the background image, an image of me (Anjalee Kulasinghe) has been used. On top of the image, I have used a flat color overlay with opacity.
+  - There is a brief introduction to Anjalee Kulasinghe (me) with a simple animation used to give a welcome to the site.
   
 ![home_section](./assets/readme-assets/Home-section.PNG)
 
@@ -138,14 +138,14 @@ _Main color palette_
 
 - **Contact**
   - In the Contact Me section, give the user the main contact details that they can use to reach me (Anjalee Kulasinghe). This section is divided into two main sections.
-  - On the left-hand side, there is a picture of me, which will help the user remember who I am if they see me in an interview. Below the profile image, My name, what positions I am currently capable of, my email address, and my mobile number are listed. Below this information, social media links are given so that users can reach me.
+  - On the left-hand side, there is a picture of me, which will help the user remember who I am if they see me in an interview. Below the profile image, my name (first and last names), what positions I am currently capable of, my email address, my mobile number and my postal address are listed. 
   - On the left-hand side, a form is given where the users will have the ability to contact me directly by entering their name and email address along with a message. The user will be asked to include their first name, last name, email, and message. The submit and reset buttons are placed at the end of the form.
 
 ![contact_section](./assets/readme-assets/Contact-section.PNG)
 
 
 - **Footer**
-  - This section includes the copywriting information for the Online CV website of Anjalee Kulasinghe.
+  - This section includes the social media links through which users can reach me. Below is copywriting information for the Online CV website of Anjalee Kulasinghe.
 
 ![contact_section](./assets/readme-assets/Footer.PNG)
 
@@ -180,7 +180,7 @@ In the future,
   * When I deployed my project to GitHub pages, I found that my project was broken; the links to the other files (CSS and images) did not work.
   * My mentor showed me this had happened since I have used the file paths in the following way:
         `<link rel="stylesheet" href="/assets/css/style.css">` 
-  * Adding a . to the start of the file path fixed the problem.
+  * Adding a '.' to the start of the file path fixed the problem.
         `<link rel="stylesheet" href="./assets/css/style.css">`
 
   * When I was fixing my site to be responsive, I found out that in the 'Contact Me' section, the contact form does not go below the screen when the screen is small. 
@@ -190,7 +190,7 @@ In the future,
   
 * **Unfixed Bugs**
 
-When I checked my site on a Samsung Galaxy S23 Ultra with the Samsung browser, I found out that the navigation is not responsive properly (especially the experience link), and even though the navigation is fixed to the top, it is hiding in the address bar. I have to pull it down when I need to use the navigation bar.
+When I checked my site on a Samsung Galaxy S23 Ultra with the Samsung browser, I found out that the navigation was not responsive properly. Even though the navigation is fixed to the top, it is sometimes hidden in the address bar. I have to pull it down when I need to use the navigation bar.
 
 
 ## Deployment
@@ -208,15 +208,14 @@ When I checked my site on a Samsung Galaxy S23 Ultra with the Samsung browser, I
 ### Content
 * The progress bar code was taken from [WeiChiaChang](<https://gist.github.com/WeiChiaChang/abe92ca2e8da86ef69560b63903e8764>).
 * The code for the two column responsive [layout](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_two_columns_responsive) and [fixed navigation](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_two_columns_responsive) from www.w3schools.com.
+- To add the overlay to the home page, I took the idea from the [dcode](https://www.youtube.com/watch?v=exb2ab72Xhs) YouTude vedio.
 * Animation added to the home text is taken from the Code Institute's [Love Running](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/tree/main) project.
 
 ### Media
 The imge used as a background image is taken from [Pixabay].
 
 ### Acknowledgements
-* The idea for the home page was taken from the site of [Sabanna](<https://www.sabanna.online/>).
 * Inspirational support from [Karina Finegan](https://kairosity.github.io/milestone-project-1-cv-website/?#home-section) project.
 * Ideas were taken from the Code Institute's Coffee House and Love Running projects.
-* The site [tech-lagoon](https://tech-lagoon.com/imagechef/en/image-to-edge.html) to convert the Profile photo to a watercolor image.
 * The the Code Institute tutor support team for helping me with the correct guidance.
 * My mentor, Medale Oluwafemi, for his invaluable guidance.
