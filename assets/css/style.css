@@ -127,7 +127,7 @@ hr {
 
 .welcome-message {
     text-align: center;
-    font-size: 2vw;
+    font-size: x-large;
     padding-left: 5px;
     padding-right: 5px;
 
@@ -501,6 +501,12 @@ footer>p {
     color: #A78295;
 }
 
+
+
+
+
+
+
 /* creates the level of zoom for welcome text */
 @keyframes welcome-zoom {
     from {
@@ -514,6 +520,12 @@ footer>p {
 
 /*For large to medium screen size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
+
+    /*home section*/
+    .welcome-message .heding1,
+    .welcome-message .heding3 {
+        font-size: medium;
+    }
 
     /* ---------- skills-section  ----------*/
     .grid-container {
@@ -570,6 +582,13 @@ footer>p {
         font-size: small;
     }
 
+    /*home section*/
+
+    .welcome-message .heding1,
+    .welcome-message .heding3 {
+        font-size: medium;
+    }
+
     /*experience section*/
 
     .experience-section {
@@ -618,6 +637,16 @@ footer>p {
     .contact-section .heding3 {
         font-size: small;
     }
+
+    /*home section*/
+
+    .welcome-message .heding1,
+    .welcome-message .heding3 {
+        font-size: small;
+    }
+
+
+    /* experience section*/
 
     .experience-section p {
         font-size: small;
