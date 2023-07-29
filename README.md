@@ -189,6 +189,7 @@ In the future,
   
   
 * **Unfixed Bugs**
+
 When I checked my site on a Samsung Galaxy S23 Ultra with the Samsung browser, I found out that the navigation is not responsive properly (especially the experience link), and even though the navigation is fixed to the top, it is hiding in the address bar. I have to pull it down when I need to use the navigation bar.
 
 
