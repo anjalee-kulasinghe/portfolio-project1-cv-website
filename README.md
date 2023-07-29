@@ -214,8 +214,8 @@ The imge used as a background image is taken from [Pixabay].
 
 ### Acknowledgements
 * The idea for the home page was taken from the site of [Sabanna](<https://www.sabanna.online/>).
-* Inspirational support from [Karina Finegan](https://kairosity.github.io/milestone-project-1-cv-website/?#home-section) project.
-- Ideas were taken from the Code Institute's Coffee House and Love Running projects.
+* Inspirational support from [Karina Finegan](https://kairosity.github.io/milestone-project-1-cv-website/?#home-section) project
+* Ideas were taken from the Code Institute's Coffee House and Love Running projects.
 * The site [tech-lagoon](https://tech-lagoon.com/imagechef/en/image-to-edge.html) to convert the Profile photo to a watercolor image.
 * The the Code Institute tutor support team for helping me with the correct guidance.
 * My mentor, Medale Oluwafemi, for his invaluable guidance.
