@@ -34,7 +34,7 @@ Online CV is the website that includes my experience, education, skills, and exp
 
 ## Demo
 
-![Website look on different devices](./readme-assets/device_look.PNG)
+![Website look on different devices](./assets/readme-assets/device_look.PNG)
 
 ### A live demo to the website can be found [here](https://anjalee-kulasinghe.github.io/portfolio-project1-cv-website/index.html)
 
@@ -77,17 +77,17 @@ The website is designed to be clear and simple. And the site has a simple tree s
 **Wireframe**
 The wireframe is designed using Balsamiq software. The first draft was edited with the guidance of the mentor. Although the site was built as a single-page scrolling website, the wireframe was designed to focus on each and every section as a single page and connect them using the navigation.
 
-My wireframe design in the [(pdf format)](./readme-assets/wireFrame.pdf)
+My wireframe design in the [(pdf format)](./assets/readme-assets/wireFrame.pdf)
 
 ### Surface
 I have selected a plain color for the main background color. But I also used a background image with bubbles in two sections. I have started the Diploma in Fullstack Development at Code Institute, which is the beginning of a new chapter of my life. The bubble background represents the meaning of change and transformation. I have selected the color theme that goes with the background image I have selected.
 
 _Background image and the colors_
-![Background image used](./readme-assets/Background_Image.PNG)
+![Background image used](./assets/readme-assets/Background_Image.PNG)
 
 _Main color palette_
 
-![Main color Palette](./readme-assets/Main_Color_Palette.png)
+![Main color Palette](./assets/readme-assets/Main_Color_Palette.png)
 
 ## Technologies
 1. HTML - To create a basic site
@@ -102,28 +102,28 @@ _Main color palette_
   * The font color is in contrast with the navigation background color. The hover effect is used for navigation, so the user can know which page they are on. 
   * The different sections of the navigation are under the same heading as a traditional CV. Users can easily understand what information is contained in different sections.
 
-![navigation_bar](./readme-assets/navigation.PNG)
+![navigation_bar](./assets/readme-assets/navigation.PNG)
 
 
 * **Home**
   * On the left-hand side of the Home section, a watercolor-effect profile image is there to give the site an artistic look.
   * On the right-hand side, there is a brief introduction to Anjalee Kulasinghe (me).
   
-![home_section](./readme-assets/Home-section.PNG)
+![home_section](./assets/readme-assets/Home-section.PNG)
 
 
 * **Experience**
   * In the Experience section, the current and past work experience.
   * This section is displayed in reverse chronological order, starting with the current job and going back to the oldest experience.
 
-![experience_section](./readme-assets/Experience-section.png)
+![experience_section](./assets/readme-assets/Experience-section.png)
 
 
 - **Education**
   * In the Education section, showcase my (Anjalee Kulasinghe) educational background.
   * This section is displayed in reverse chronological order.
 
-![education_section](./readme-assets/Education-section.PNG)
+![education_section](./assets/readme-assets/Education-section.PNG)
 
 
 - **Skills**
@@ -133,7 +133,7 @@ _Main color palette_
   - _Tools:_ some technological tools that I am familiar with.
   - _Tech Languages:_ these are some tech languages that I have some basic understanding of and have started to learn deeper with the Code Institute.
 
-![skills_section](./readme-assets/Skills-section.png)
+![skills_section](./assets/readme-assets/Skills-section.png)
 
 
 - **Contact**
@@ -141,13 +141,13 @@ _Main color palette_
   - On the left-hand side, there is a picture of me, which will help the user remember who I am if they see me in an interview. Below the profile image, My name, what positions I am currently capable of, my email address, and my mobile number are listed. Below this information, social media links are given so that users can reach me.
   - On the left-hand side, a form is given where the users will have the ability to contact me directly by entering their name and email address along with a message. The user will be asked to include their first name, last name, email, and message. The submit and reset buttons are placed at the end of the form.
 
-![contact_section](./readme-assets/Contact-section.PNG)
+![contact_section](./assets/readme-assets/Contact-section.PNG)
 
 
 - **Footer**
   - This section includes the copywriting information for the Online CV website of Anjalee Kulasinghe.
 
-![contact_section](./readme-assets/Footer.PNG)
+![contact_section](./assets/readme-assets/Footer.PNG)
 
 
 ### Features Left to Implement
@@ -167,13 +167,13 @@ In the future,
 
 ### Validator Testing
 * **HTML**
-  No errors were returned when passing through the official [W3C validator](./readme-assets/validator_result_html.PNG)
+  No errors were returned when passing through the official [W3C validator](./assets/readme-assets/validator_result_html.PNG)
 
 * **CSS**
-  No errors were found when passing through the official [(Jigsaw) validator](./readme-assets/css-validator_result.PNG)
+  No errors were found when passing through the official [(Jigsaw) validator](./assets/readme-assets/css-validator_result.PNG)
   
 * **Accessibility**
-  I confirmed that the colors and fonts chosen are easy to read and accessible by running it through [Lighthouse DevTools](./readme-assets/site_accessibility.PNG)
+  I confirmed that the colors and fonts chosen are easy to read and accessible by running it through [Lighthouse DevTools](./assets/readme-assets/site_accessibility.PNG)
 
 ### Bugs
 * **Solved bugs**

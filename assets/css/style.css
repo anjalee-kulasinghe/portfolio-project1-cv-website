@@ -66,16 +66,7 @@ hr {
 
 
 /*-------------------------------------------------------------------  section home */
-/* creates the level of zoom for hero image */
-@keyframes welcome-zoom {
-    from {
-        transform: scale(1);
-    }
 
-    to {
-        transform: scale(1.1);
-    }
-}
 
 .home-section {
     padding: 5rem 0;
@@ -145,10 +136,10 @@ div #welcome {
 /*-------------------------------------------------------------------  section experience */
 .experience-section {
     padding: 5rem 0;
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
     background: url('../images/bokeh-2072271_1920.webp') center center / cover no-repeat fixed;
-    margin-top: 60px;
-    margin-bottom: 80px;
+    /* margin-top: 60px; */
+    /* margin-bottom: 80px; */
 }
 
 .experience-section h1,
@@ -210,7 +201,7 @@ section {
 /*-------------------------------------------------------------------  education section */
 .education-section {
     padding: 5rem 0;
-    margin-bottom: 80px;
+    /* margin-bottom: 80px; */
     display: grid;
     place-items: center;
 }
@@ -266,7 +257,7 @@ ul strong {
 /*-------------------------------------------------------------------  skills section */
 .skills-section {
     padding: 5rem 0;
-    margin-bottom: 80px;
+    /* margin-bottom: 80px; */
     background: url('../images/bokeh-2072271_1920.webp') center center / cover no-repeat fixed;
 }
 
@@ -282,8 +273,8 @@ h3 {
     letter-spacing: 6px;
     text-align: center;
     font-size: xx-large;
-    padding-top: 30px;
-    padding-bottom: 20px;
+    /* padding-top: 30px;
+    padding-bottom: 20px; */
 }
 
 .skills-section h2 {
@@ -366,6 +357,11 @@ div .skill-box {
     font-family: inherit;
 }
 
+.grid-container .item {
+    text-align: left;
+    padding-left: 20px;
+}
+
 .human-language-tools-box {
     margin-top: 20px;
     background: rgba(194, 132, 140, .6);
@@ -388,6 +384,10 @@ div .skill-box {
 .wrapper {
     width: auto;
     padding: 20px;
+}
+
+.wrapper .lable-id {
+    display: none;
 }
 
 .progress-bar {
@@ -421,7 +421,7 @@ h3 {
 
 .contact-section {
     padding: 5rem 0;
-    margin-bottom: 80px;
+    /* margin-bottom: 80px; */
 
     clear: left;
     background-color: #AC8499;
@@ -436,7 +436,7 @@ h3 {
     letter-spacing: 6px;
     text-align: center;
     font-size: xx-large;
-    padding-top: 30px;
+    /* padding-top: 30px; */
     padding-bottom: 20px;
 }
 
@@ -449,7 +449,7 @@ h3 {
 .column {
     float: left;
     width: 50%;
-    padding: 10px;
+    padding: 0 10px 0 10px;
     height: auto;
     box-sizing: border-box;
 }
@@ -465,8 +465,8 @@ h3 {
     color: #EDC9D2;
     background-color: #331D2C;
     opacity: .5;
-    width: 90%;
-    padding: 14px;
+    /* width: 90%; */
+    /* padding: 14px; */
 }
 
 
@@ -529,20 +529,7 @@ input[type=reset] {
     text-transform: uppercase;
 }
 
-.social-networks {
-    text-align: left;
-    padding: 0;
-}
 
-.social-networks>li {
-    display: inline;
-}
-
-.social-networks i {
-    font-size: 160%;
-    padding: 1%;
-    color: #3F2E3E;
-}
 
 /*-------------------------------------------------------------------  footer */
 footer {
@@ -559,12 +546,38 @@ footer {
 
 footer>p {
     color: #A78295;
+    font-weight: 300px;
 }
 
 .text-uppercase {
     text-transform: uppercase;
 }
 
+.social-networks {
+    text-align: center;
+    padding: 0;
+}
+
+.social-networks>li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 200%;
+    padding: 1%;
+    color: #A78295;
+}
+
+/* creates the level of zoom for welcome text */
+@keyframes welcome-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
 
 /*For large to medium screen size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
@@ -719,7 +732,7 @@ footer>p {
     }
 
     .contact-form {
-        width: 100%;
+        /* width: 100%; */
         padding: 8px;
     }
 
