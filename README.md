@@ -179,13 +179,13 @@ In the future,
 * **Solved bugs**
   * When I deployed my project to GitHub pages, I found that my project was broken; the links to the other files (CSS and images) did not work.
   * My mentor showed me this had happened since I have used the file paths in the following way:
-     <link rel="stylesheet" href="/assets/css/style.css"> 
+     `<link rel="stylesheet" href="/assets/css/style.css">` 
   * Adding a . to the start of the file path fixed the problem.
-     <link rel="stylesheet" href="./assets/css/style.css">
+     `<link rel="stylesheet" href="./assets/css/style.css">`
 
   * When I was fixing my site to be responsive, I found out that in the 'Contact Me' section, the contact form does not go below the screen when the screen is small. 
-  * This has happened since I have used <display: flex;>. 
-  * Changing flex to block fixed the problem <display: block;>.
+  * This has happened since I have used `<display: flex;>`. 
+  * Changing flex to block fixed the problem `<display: block;>`.
   
   
 * **Unfixed Bugs**
