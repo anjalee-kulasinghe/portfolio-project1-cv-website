@@ -38,6 +38,7 @@ hr {
     width: 100%;
     top: 0;
     height: 75px;
+    z-index: 100;
 }
 
 .navigation li {
@@ -66,69 +67,48 @@ hr {
 
 
 /*-------------------------------------------------------------------  section home */
-
-
 .home-section {
-    padding: 5rem 0;
-    height: auto;
-    margin-bottom: 80px;
+    padding-top: 5rem;
 }
 
-#profile-img {
-    width: 50%;
-    opacity: .7;
-    float: left;
+.home-image {
+    position: relative;
+    /* width: 700px; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 600px;
     height: auto;
-    object-fit: contain;
 }
 
-.home-section h3 {
+.image-anji {
+    display: block;
+    width: 100%;
+    height: auto;
+    opacity: 0.6;
+}
+
+.image-anji-overlay {
+    position: absolute;
+    top: 0;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background: rgba(51, 29, 44, .7);
+    color: white;
     font-family: 'Patrick Hand',
         'Courier New';
-    color: #A78295;
-    font-size: x-large;
-    letter-spacing: 2px;
-    text-align: center;
-}
+    /* margin-left: auto;
+    margin-right: auto; */
 
-.home-section h1 {
-    font-family: 'Patrick Hand',
-        'Courier New';
-    color: #A78295;
-    font-size: xx-large;
-    letter-spacing: 2px;
-    text-align: center;
-}
-
-#welcome {
-    margin: 0;
-
-    /* animates zoom effect on loading page */
-    animation-name: welcome-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-}
-
-div #welcome {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    float: right;
 }
 
-.one-third-width-column {
-    width: 33.33%;
-}
-
-.two-thirds-width-column {
-    width: 66.66%;
-    display: inline-flex;
-    padding-left: 220px;
-}
-
-.vertical-center {
-    position: absolute;
-    top: 50%;
+.welcome-message {
+    text-align: center;
 }
 
 
@@ -546,7 +526,7 @@ footer {
 
 footer>p {
     color: #A78295;
-    font-weight: 300px;
+    font-weight: 900;
 }
 
 .text-uppercase {
