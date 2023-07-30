@@ -172,7 +172,6 @@ hr {
 #experience1 {
     background-color: #EDC9D2;
     margin: auto;
-    /* width: 90%; */
     padding: 10px;
     margin-bottom: 10px;
 }
@@ -180,7 +179,6 @@ hr {
 #experience2 {
     background-color: #C2848C;
     margin: auto;
-    /* width: 90%; */
     padding: 10px;
     margin-bottom: 10px;
 }
@@ -507,7 +505,7 @@ footer>p {
 
 
 
-/* creates the level of zoom for welcome text */
+/* ------------------------------------------- creates the level of zoom for welcome text */
 @keyframes welcome-zoom {
     from {
         transform: scale(1);
@@ -518,10 +516,10 @@ footer>p {
     }
 }
 
-/*For large to medium screen size from 1200px wide and down */
+/*---------------------------------------- For large to medium screen size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
 
-    /*home section*/
+    /* ---------- home section ----------*/
     .welcome-message .heding1,
     .welcome-message .heding3 {
         font-size: medium;
@@ -548,10 +546,10 @@ footer>p {
     }
 }
 
-/*For screen size from 800px wide and down */
+/* ------------------------------------------------------------For screen size from 800px wide and down */
 @media screen and (max-width: 800px) {
 
-    /*heading size for all sections*/
+    /* ----------heading size for all sections ----------*/
 
     .home-section,
     .experience-section,
@@ -582,20 +580,20 @@ footer>p {
         font-size: small;
     }
 
-    /*home section*/
+    /* ---------- home section ---------- */
 
     .welcome-message .heding1,
     .welcome-message .heding3 {
         font-size: medium;
     }
 
-    /*experience section*/
+    /* ---------- experience section ---------- */
 
     .experience-section {
         margin-top: 0;
     }
 
-    /* navigation */
+    /* ---------- navigation ---------- */
 
     .logo {
         display: none;
@@ -614,7 +612,7 @@ footer>p {
     }
 }
 
-/*For screen size from 550px wide and down */
+/* ---------------------------------------------------- For screen size from 550px wide and down */
 @media screen and (max-width: 550px) {
 
     .experience-section>.heding1,
@@ -638,7 +636,7 @@ footer>p {
         font-size: small;
     }
 
-    /*home section*/
+    /* ---------- home section ---------- */
 
     .welcome-message .heding1,
     .welcome-message .heding3 {
@@ -646,7 +644,7 @@ footer>p {
     }
 
 
-    /* experience section*/
+    /* ---------- experience section ---------- */
 
     .experience-section p {
         font-size: small;
@@ -656,7 +654,11 @@ footer>p {
         font-size: small;
     }
 
-    /*contact section*/
+    /* ---------- contact section ---------- */
+    .contact-me {
+        text-align: center;
+    }
+
     .column {
         width: 100%;
     }
